@@ -1,5 +1,9 @@
-id: "devops"
-name: "DevOps Workshop with OpenShift"
+---
+id: workshop
+name: Manawa Workshop
+
+content:
+  url: https://raw.githubusercontent.com/adeo/manawa-workshop/master
 
 modules:
   activate:
