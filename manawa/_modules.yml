@@ -1,0 +1,31 @@
+config:
+  renderer: markdown
+  
+modules:
+  manawa-advanced-workshop1:
+    name: Workshop Manawa Advanced
+  manawa-advanced-workshop2:
+    name: Prerequisite
+  manawa-advanced-workshop3:
+    name: Create your project
+  manawa-advanced-workshop4:
+    name: Create MongoDB Database
+  manawa-advanced-workshop5:
+    name: Deploy frontend application
+  manawa-advanced-workshop6:
+    name: Connect my Frontend application to Database
+  manawa-advanced-workshop7:
+    name: Expose my application to internal cluster with Private IP
+  manawa-advanced-workshop8:
+    name: Expose my application to everyone with Public IP
+  manawa-advanced-workshop9:
+    name: Connect my Frontend application to Database
+  manawa-advanced-workshop10:
+    name: Autoscale my application
+  manawa-advanced-workshop11:
+    name: Change my application release (rolling update)
+  manawa-advanced-workshop12:
+    name: Manage my application (log, rsh, debug)
+  manawa-advanced-workshop13:
+    name: Remove my database
+

@@ -1,6 +1,0 @@
-config:
-  renderer: markdown
-  
-modules:
-  manawa-advanced-workshop:
-    name: Advanced Workshop
