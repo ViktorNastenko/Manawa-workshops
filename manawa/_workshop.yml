@@ -3,7 +3,7 @@ id: workshop-manawa-advanced
 name: Workshop Manawa Advanced
 
 content:
-  url: https://raw.githubusercontent.com/adeo/manawa-workshop/manawa/master
+  url: https://raw.githubusercontent.com/adeo/manawa-workshops/manawa/master
 
 modules:
   activate:
