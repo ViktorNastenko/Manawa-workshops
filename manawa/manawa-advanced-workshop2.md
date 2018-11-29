@@ -34,10 +34,11 @@ mv openshift-origin-client-tools-v3.10.0-rc.0-c20e215-linux-64bit/oc /usr/local/
 
 
 ## Step 1 : Clone workshop-manawa-advanced from Github repo
-1. git clone https://github.com/adeo/manawa-advanced-workshop.git
+
 ```
-$ git clone https://github.com/adeo/manawa-advanced-workshop.git
+$ git clone https://github.com/adeo/manawa-workshops.git
 ```
+
 
 
 
