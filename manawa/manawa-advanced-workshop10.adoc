@@ -1,5 +1,6 @@
 Autoscale my application
 ------------------------
+
 Set CPU and Memory limits on your deployment:
 -----------------
 $ oc set resources dc manawa-todo --limits=cpu=200m,memory=512Mi --requests=cpu=100m,memory=256Mi
