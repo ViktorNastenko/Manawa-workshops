@@ -9,12 +9,12 @@
 
 
 * select "databases"
-![Select Database](manawa/Tutorial/screens/Catalog-Select-Database.png)
+![Select Database](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa/Tutorial/screens/Catalog-Select-Database.png)
 
 
 
 * then "MonogDB"
-![Select Database](Tutorial/screens/Catalog-Select-MongoDB.png)
+![Select Database](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa/Tutorial/screens/Catalog-Select-MongoDB.png)
 
 
 * On second screen, You must fill in the following fields :
@@ -25,6 +25,6 @@
 > * MongoDB Database Name : todolist
 > * MongoDB Admin Password : *********
 
-![Create MongoDB](Tutorial/screens/Catalog-Create-MongoDB.png)
+![Create MongoDB](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa/Tutorial/screens/Catalog-Create-MongoDB.png)
 
 
