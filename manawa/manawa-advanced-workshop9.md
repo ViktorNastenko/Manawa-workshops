@@ -22,7 +22,7 @@ Check :
 Finally, launch an ab testing:
 
 ```
-    $ ab -n 10000 -c 20 https://manawa-todo-devweek-<LDAP>-todolist.euw1-gcp-poc.adeo.cloud/tasks
+    $ ab -n 10000 -c 20 https://manawa-todo-workshop-<LDAP>-todolist.euw1-gcp-poc.adeo.cloud/tasks
 ```
 
 And now check hpa and pods:

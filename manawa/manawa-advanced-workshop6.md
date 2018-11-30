@@ -3,6 +3,6 @@
 Launch this command
 
 ```
-$ oc set env dc/manawa-todo -e MONGODB_USER=mongodbuser -e MONGODB_PASSWORD=mongodbpass -e MONGODB_DATABASE=todolist -e DATABASE_SERVICE_NAME=mongodb.devweek-<LDAP>-todolist.svc
+$ oc set env dc/manawa-todo -e MONGODB_USER=mongodbuser -e MONGODB_PASSWORD=mongodbpass -e MONGODB_DATABASE=todolist -e DATABASE_SERVICE_NAME=mongodb.workshop-<LDAP>-todolist.svc
 ```
 

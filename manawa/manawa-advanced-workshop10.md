@@ -22,6 +22,6 @@ $ oc get dc
 
 * Finally, check your new application release !
 
-https://manawa-todo-devweek-<LDAP>-todolist.euw1-gcp-poc.adeo.cloud
+https://manawa-todo-workshop-<LDAP>-todolist.euw1-gcp-poc.adeo.cloud
 
 
