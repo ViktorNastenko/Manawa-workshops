@@ -5,7 +5,7 @@
 
 2. Install MongoDB
 * From "Browse Catalog"
-![Home Project](./Tutorial/screens/Home-Project.png)
+![Home Project](./manawa/Tutorial/screens/Home-Project.png)
 
 
 * select "databases"
