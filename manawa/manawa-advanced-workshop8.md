@@ -1,6 +1,6 @@
 # Expose my application to everyone with Public IP
 
-1. get the service to expose:
+get the service to expose:
 
 ```
 $ oc get svc
@@ -9,7 +9,7 @@ manawa-todo-service   172.30.62.149   <none>        8080/TCP    25s
 mongodb       172.30.178.29   <none>        27017/TCP   4h
 ```
 
-2. create the route
+create the route
 ```
 $ oc create route edge --service manawa-todo-service --port 8080
 or
@@ -17,7 +17,7 @@ $ oc create –f route.yaml
 ```
 
 
-3. Finaly, check:
+Finaly, check:
 ```
 $ oc get routes
 ```

@@ -1,19 +1,19 @@
 # Create MongoDB Database
 
-1. Connect to Web Console
-* Point your browser to https://manawa.euw1-gcp-poc.adeo.cloud/ and login with ldap/password
+## Connect to Web Console
+Point your browser to https://manawa.euw1-gcp-poc.adeo.cloud/ and login with ldap/password
 
-2. Install MongoDB
+## Install MongoDB
 * From "Browse Catalog"
 ![Home Project](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa/Tutorial/screens/Home-Project.png)
 
 
-* select "databases"
+## select "databases"
 ![Select Database](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa/Tutorial/screens/Catalog-Select-Database.png)
 
 
 
-* then "MongDB"
+## then "MongDB"
 ![Select Database](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa/Tutorial/screens/Catalog-Select-MongoDB.png)
 
 
