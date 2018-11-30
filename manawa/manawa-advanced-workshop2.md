@@ -9,7 +9,7 @@ You will need the oc cli (Openshift Command Line Interface) installed on your la
 You can find the instructions to install it bellow.
 
 ## For Windows: 
-https://blog.openshift.com/installing-oc-tools-windows/
+[https://blog.openshift.com/installing-oc-tools-windows/](https://blog.openshift.com/installing-oc-tools-windows/)
 
 ## For OS X:
 

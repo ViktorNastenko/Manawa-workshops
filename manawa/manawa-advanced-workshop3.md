@@ -6,5 +6,8 @@ Please name your project like this: devweek-<your_ldap_id>-todolist (e.g. 'devwe
 
 ```
 oc login -u <YOUR LDAP ID> https://manawa.euw1-gcp-poc.adeo.cloud/
+```
+
+```
 oc new-project devweek-<your_ldap_id>-todolist
 ```
