@@ -14,6 +14,9 @@ Check :
 
 ```
 $ oc rollout status  dc/manawa-todo
+```
+
+```
 $ oc get dc
 ```
 
