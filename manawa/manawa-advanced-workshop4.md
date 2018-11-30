@@ -5,7 +5,7 @@
 
 2. Install MongoDB
 * From "Browse Catalog"
-![Home Project](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa/Tutorial/screens/Home-Project.png)
+![Home Project](./Tutorial/screens/Home-Project.png)
 
 
 * select "databases"
