@@ -1,5 +1,5 @@
 config:
-  renderer: adoc
+  renderer: markdown
   
 modules:
   manawa-advanced-workshop1:
