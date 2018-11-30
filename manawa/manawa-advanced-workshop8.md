@@ -10,6 +10,7 @@ mongodb       172.30.178.29   <none>        27017/TCP   4h
 ```
 
 create the route
+
 ```
 $ oc create route edge --service manawa-todo-service --port 8080
 or
@@ -18,6 +19,7 @@ $ oc create –f route.yaml
 
 
 Finaly, check:
+
 ```
 $ oc get routes
 ```
