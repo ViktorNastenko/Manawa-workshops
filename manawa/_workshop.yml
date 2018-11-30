@@ -2,9 +2,6 @@
 id: workshop-manawa-advanced
 name: Workshop Manawa Advanced
 
-content:
-  url: https://raw.githubusercontent.com/adeo/Manawa-workshops/master/manawa/
-
 modules:
   activate:
   - manawa-advanced-workshop1
@@ -12,6 +9,7 @@ modules:
   - manawa-advanced-workshop3
   - manawa-advanced-workshop4
   - manawa-advanced-workshop5
+  - manawa-advanced-workshop6
   - manawa-advanced-workshop7
   - manawa-advanced-workshop8
   - manawa-advanced-workshop9
