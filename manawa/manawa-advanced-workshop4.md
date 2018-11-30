@@ -13,7 +13,7 @@
 
 
 
-* then "MonogDB"
+* then "MongDB"
 ![Select Database](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa/Tutorial/screens/Catalog-Select-MongoDB.png)
 
 
