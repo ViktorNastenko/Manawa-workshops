@@ -19,13 +19,11 @@ modules:
   manawa-advanced-workshop8:
     name: Expose my application to everyone with Public IP
   manawa-advanced-workshop9:
-    name: Connect my Frontend application to Database
-  manawa-advanced-workshop10:
     name: Autoscale my application
-  manawa-advanced-workshop11:
+  manawa-advanced-workshop10:
     name: Change my application release (rolling update)
-  manawa-advanced-workshop12:
+  manawa-advanced-workshop11:
     name: Manage my application (log, rsh, debug)
-  manawa-advanced-workshop13:
+  manawa-advanced-workshop12:
     name: Remove my database
 

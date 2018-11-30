@@ -1,26 +1,7 @@
-# Manage my application (log, rsh, debug)
+# Remove my database
 
-1. Check logs:
+1. Delete your mongo database and check what is going on !
 ```
-$ oc get po
-$ oc logs po/XXX
+$ oc get pods
+$ oc delete po/mongodb-X-XXXX
 ```
-
-
-2. Go inside your pod:
-```
-$ oc rsh po/XXX
-```
-
-
-3. Test those commands:
-```
-$ oc describe <something>
-$ oc export <something>
-$ oc whoami –c|-t
-$ oc get pv
-$ oc get pvc
-...
-```
-
-

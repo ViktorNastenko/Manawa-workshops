@@ -1,22 +1,26 @@
-# Change my application release (rolling update)
+# Manage my application (log, rsh, debug)
 
-
-1. Change imageStream manually :
+1. Check logs:
 ```
-$ oc tag quay.io/adeo/manawa-todo:v2 manawa-todo:latest
-```
-
-Also, you replace the existing image tag by a new one (remote).
-
-
-2. Check :
-```
-$ oc rollout status  dc/manawa-todo
-$ oc get dc
+$ oc get po
+$ oc logs po/XXX
 ```
 
-* Finally, check your new application release !
 
-https://manawa-todo-devweek-<LDAP>-todolist.euw1-gcp-poc.adeo.cloud
+2. Go inside your pod:
+```
+$ oc rsh po/XXX
+```
+
+
+3. Test those commands:
+```
+$ oc describe <something>
+$ oc export <something>
+$ oc whoami –c|-t
+$ oc get pv
+$ oc get pvc
+...
+```
 
 
