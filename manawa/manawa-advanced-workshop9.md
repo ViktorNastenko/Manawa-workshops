@@ -22,11 +22,17 @@ Check :
 Finally, launch an ab testing:
 
 ```
-    $ ab -n 10000 -c 20 https://manawa-todo-workshop-<LDAP>-todolist.euw1-gcp-poc.adeo.cloud/tasks
+    $ ab -n 100000 -c 20 https://manawa-todo-workshop-<LDAP>-todolist.euw1-gcp-poc.adeo.cloud/tasks
 ```
 
-And now check hpa and pods:
+Check from another terminal hpa and pods:
 
 ```
-    $ oc get hpa && oc get po && oc get dc
+    $ oc get hpa -w 
+```      
+
 ```
+    $ oc get po && oc get dc
+```
+
+Note : Wait at least 2 minutes. If you do not have ab, ask to the presentator to launch the test.

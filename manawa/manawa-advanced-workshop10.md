@@ -9,19 +9,14 @@ $ oc tag quay.io/adeo/manawa-todo:v2 manawa-todo:latest
 
 Also, you replace the existing image tag by a new one (remote).
 
-
-Check :
-
 ```
 $ oc rollout status  dc/manawa-todo
-```
-
-```
-$ oc get dc
 ```
 
 * Finally, check your new application release !
 
 https://manawa-todo-workshop-<LDAP>-todolist.euw1-gcp-poc.adeo.cloud
 
+The new release must hurt your eyes !
 
+Note : if you get a timeout it is not an error. 
