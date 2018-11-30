@@ -5,16 +5,16 @@
 
 2. Install MongoDB
 * From "Browse Catalog"
-![Home Project](./manawa/Tutorial/screens/Home-Project.png)
+![Home Project](/workshop/workshop/asset/Tutorial/screens/Home-Project.png)
 
 
 * select "databases"
-![Select Database](./Tutorial/screens/Catalog-Select-Database.png)
+![Select Database](/workshop/workshop/asset/Tutorial/screens/Catalog-Select-Database.png)
 
 
 
 * then "MonogDB"
-![Select Database](./Tutorial/screens/Catalog-Select-MongoDB.png)
+![Select Database](/workshop/workshop/asset/Tutorial/screens/Catalog-Select-MongoDB.png)
 
 
 * On second screen, You must fill in the following fields :
@@ -25,6 +25,6 @@
 > * MongoDB Database Name : todolist
 > * MongoDB Admin Password : *********
 
-![Create MongoDB](./Tutorial/screens/Catalog-Create-MongoDB.png)
+![Create MongoDB](/workshop/workshop/asset/Tutorial/screens/Catalog-Create-MongoDB.png)
 
 
