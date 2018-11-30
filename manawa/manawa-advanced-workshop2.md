@@ -16,7 +16,8 @@ https://blog.openshift.com/installing-oc-tools-windows/
 ### Option 1:
 
 If you have Homebrew (https://brew.sh/) installed:
-Open a new terminal and enter this command:
+Open a new terminal and enter this command
+
 ```
    $ brew install openshift-cli
 ```
@@ -24,6 +25,7 @@ Open a new terminal and enter this command:
 ### Option 2:
 
 Open a new terminal and enter the following commands.
+
 ```
    $ wget https://github.com/openshift/origin/releases/download/v3.10.0-rc.0/openshift-origin-client-tools-v3.10.0-rc.0-c20e215-mac.zip
 ```
