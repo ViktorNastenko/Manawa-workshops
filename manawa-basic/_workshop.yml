@@ -1,0 +1,18 @@
+---
+id: workshop-manawa-basic
+name: Workshop Manawa Basic
+
+modules:
+  activate:
+  - manawa-basic-workshop1
+  - manawa-basic-workshop2
+  - manawa-basic-workshop3
+  - manawa-basic-workshop4
+  - manawa-basic-workshop5
+  - manawa-basic-workshop6
+  - manawa-basic-workshop7
+  - manawa-basic-workshop8
+  - manawa-basic-workshop9
+  - manawa-basic-workshop10
+  - manawa-basic-workshop11
+  - manawa-basic-workshop12
