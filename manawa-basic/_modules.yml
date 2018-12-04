@@ -3,7 +3,7 @@ config:
   
 modules:
   manawa-basic-workshop1:
-    name: Workshop Manawa Advanced
+    name: Workshop Manawa Basic
   manawa-basic-workshop2:
     name: Prerequisite
   manawa-basic-workshop3:
