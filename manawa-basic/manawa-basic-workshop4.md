@@ -5,16 +5,16 @@ Point your browser to https://manawa.euw1-gcp-poc.adeo.cloud/ and login with lda
 
 ## Install MongoDB
 * From "Browse Catalog"
-![Home Project](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa/Tutorial/screens/Home-Project.png)
+![Home Project](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa-basic/Tutorial/screens/Home-Project.png)
 
 
 ## select "databases"
-![Select Database](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa/Tutorial/screens/Catalog-Select-Database.png)
+![Select Database](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa-basic/Tutorial/screens/Catalog-Select-Database.png)
 
 
 
 ## then "MongDB"
-![Select Database](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa/Tutorial/screens/Catalog-Select-MongoDB.png)
+![Select Database](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa-basic/Tutorial/screens/Catalog-Select-MongoDB.png)
 
 
 * On second screen, You must fill in the following fields:
@@ -28,6 +28,6 @@ Point your browser to https://manawa.euw1-gcp-poc.adeo.cloud/ and login with lda
 
 Note : You must use 2.4 release, other fields can be customized.
 
-![Create MongoDB](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa/Tutorial/screens/Catalog-Create-MongoDB.png)
+![Create MongoDB](https://raw.githubusercontent.com/adeo/manawa-workshops/master/manawa-basic/Tutorial/screens/Catalog-Create-MongoDB.png)
 
 

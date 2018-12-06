@@ -37,7 +37,9 @@ Finaly, check:
 $ oc get routes
 ```
 
-> * Now test your application on "https://manawa-todo-devweek-<YOUR-LDAP-ID>-todolist.euw1-gcp-poc.adeo.cloud"
+> * Now test your application on
+
+    https://manawa-todo-devweek-YOUR-LDAP-ID-todolist.euw1-gcp-poc.adeo.cloud
 
 Try to add some todo task.
 
