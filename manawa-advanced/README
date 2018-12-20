@@ -1,0 +1,10 @@
+Possible Topics :
+anti affinity
+helm
+vault/consul
+livenes/readyness
+tuning
+cost optimization
+istio
+how my application can be alaways available (Affinity, gslb, selector, regions)
+deal with PV
