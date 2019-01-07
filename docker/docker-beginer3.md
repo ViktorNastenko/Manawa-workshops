@@ -12,22 +12,33 @@ Docker Compose is a tool that allow you to describe (in a YAML file) and manage 
 
 https://github.com/jirkapinkas/spring-boot-postgresql-docker-compose
 
-docker run -it --rm --name my-maven-project -v "$PWD":/usr/src/mymaven -w /usr/src/mymaven -v /var/run/:/var/run/ maven mvn clean install​
+```
+$ docker run -it --rm --name my-maven-project -v "$PWD":/usr/src/mymaven -w /usr/src/mymaven -v /var/run/:/var/run/ maven mvn clean install
+```
 
-cd src/main/docker​
+```
+$ cd src/main/docker​
+```
 
-docker-compose up​
+```
+$ docker-compose up​
 
-docker-compose down​
+$ docker-compose down​
+```
 
 « depends_on »​
 
 « restart: always » pour image app ​
 
-docker-compose up -d​
+```
+$ docker-compose up -d​
 
-docker ps​
+$ docker ps​
+```
 
 Restart Docker​
 
+```
 docker ps​
+```
+
