@@ -1,6 +1,8 @@
 
 ## Docker commands
 
+### General Usage
+
 Start a container in background
 
 ```
@@ -43,3 +45,28 @@ Add a metadata to container
 docker run -d \
 label= traefik.backend=jenkins jenkins
 ```
+
+### Build Images
+
+Build an image from Dockerfile in current directory 
+
+``` 
+    $ docker build --tag myimage .
+```
+
+Force rebuild of Docker images
+
+```
+    $ docker build --no-cache .
+```
+
+Convert a container to image 
+```
+    $ docker commit c7337 myimage
+```
+
+Remove all unused images
+```
+    $ docker mi $(docker images -q -f "dangling=true")
+```
+
