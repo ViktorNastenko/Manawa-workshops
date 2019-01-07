@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Route
 metadata:
-  name: manawa-cicd
+  name: manawa-todo
   labels:
-      app: manawa-cicd
+      app: manawa-todo
 spec:
   host: 
   to:
     kind: Service
-    name: manawa-cicd-service
+    name: manawa-todo-service
   tls:
     insecureEdgeTerminationPolicy: Redirect
     termination: edge

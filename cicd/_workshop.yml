@@ -1,6 +1,6 @@
 ---
-id: workshop-manawa-cicd
-name: Workshop Manawa CICD
+id: workshop-manawa-basic
+name: Workshop Manawa Basic
 
 modules:
   activate:

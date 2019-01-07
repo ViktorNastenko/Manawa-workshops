@@ -3,13 +3,13 @@ kind: Service
 metadata:
   annotations:
     description: Exposes and load balances the application pods
-  name: manawa-cicd-service
+  name: manawa-todo-service
   labels:
-      app: manawa-cicd
+      app: manawa-todo
 spec:
   ports:
   - name: web
     port: 8080
     targetPort: 8080
   selector:
-    deploymentconfig: manawa-cicd
+    deploymentconfig: manawa-todo

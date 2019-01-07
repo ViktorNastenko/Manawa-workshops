@@ -5,8 +5,8 @@ items:
   kind: ImageStream
   metadata:
     labels:
-      app: manawa-cicd
-    name: manawa-cicd
+      app: manawa-todo
+    name: manawa-todo
   spec:
     lookupPolicy:
       local: false
@@ -25,21 +25,21 @@ items:
   kind: DeploymentConfig
   metadata:
     labels:
-      app: manawa-cicd
-    name: manawa-cicd
+      app: manawa-todo
+    name: manawa-todo
   spec:
     replicas: 1
     selector:
-      app: manawa-cicd
-      deploymentconfig: manawa-cicd
+      app: manawa-todo
+      deploymentconfig: manawa-todo
     strategy:
       resources: {}
       type: Rolling
     template:
       metadata:
         labels:
-          app: manawa-cicd
-          deploymentconfig: manawa-cicd
+          app: manawa-todo
+          deploymentconfig: manawa-todo
       spec:
         containers:
         - env:
@@ -51,7 +51,7 @@ items:
             value: xxxx
           - name: MONGODB_DATABASE
             value: xxxxx
-          image:  manawa-cicd:latest
+          image:  manawa-todo:latest
           imagePullPolicy: Always
           livenessProbe:
             failureThreshold: 3
@@ -63,7 +63,7 @@ items:
             periodSeconds: 5
             successThreshold: 1
             timeoutSeconds: 5
-          name: manawa-cicd
+          name: manawa-todo
           ports:
           - containerPort: 8080
             protocol: TCP
@@ -99,8 +99,8 @@ items:
     - imageChangeParams:
         automatic: true
         containerNames:
-        - manawa-cicd
+        - manawa-todo
         from:
           kind: ImageStreamTag
-          name: manawa-cicd:latest
+          name: manawa-todo:latest
       type: ImageChange
