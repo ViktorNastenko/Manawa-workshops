@@ -1,6 +1,7 @@
 
 # Docker commands
 
+
 ## General Usage
 
 Start a container in background
@@ -46,6 +47,7 @@ docker run -d \
 label= traefik.backend=jenkins jenkins
 ```
 
+
 ## Build Images
 
 Build an image from Dockerfile in current directory 
@@ -70,3 +72,65 @@ Remove all unused images
     $ docker mi $(docker images -q -f "dangling=true")
 ```
 
+## Volumes
+
+Create a local volume 
+```
+    $ docker volume create --name myvol
+```
+
+Mounting a volume on container start 
+```
+    $  docker run -v myvol:/data redis
+```
+
+Destroy a volume
+```
+    $ docker volume rm myvol
+```
+
+List volumes
+```
+    $ docker volume ls
+```
+
+
+## Manage Containers 
+
+List running containers
+```
+    $ docker ps
+```
+
+List all containers (running & stopped)
+```
+    $ docker ps -a
+```
+
+Inspect containers metadatas
+```
+    $ docker inspect c7337
+```
+
+List local available images
+```
+    $ docker images
+```
+
+Delete all stopped containers
+```
+    $ docker rm$(docker ps --filter status=exited -q)
+```
+
+List all containers with a specific label
+```
+    $ docker ps --filter label=traefik.backend
+```
+
+Query a specific metadata of a running container
+```
+    $ docker inspect -f'{{.NetworkSettings.IPAddress}}'c7337
+    
+
+
+  
