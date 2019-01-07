@@ -2,28 +2,22 @@ config:
   renderer: markdown
   
 modules:
-  manawa-basic-workshop1:
-    name: Workshop Manawa Basic
-  manawa-basic-workshop2:
+  manawa-cicd-workshop1:
+    name: Workshop Manawa CICD
+  manawa-cicd-workshop2:
     name: Prerequisite
-  manawa-basic-workshop3:
-    name: Create your project
-  manawa-basic-workshop4:
-    name: Create MongoDB Database
-  manawa-basic-workshop5:
-    name: Deploy frontend application
-  manawa-basic-workshop6:
-    name: Connect my Frontend application to Database
-  manawa-basic-workshop7:
-    name: Expose my application to internal cluster with Private IP
-  manawa-basic-workshop8:
-    name: Expose my application to everyone with Public IP
-  manawa-basic-workshop9:
-    name: Autoscale my application
-  manawa-basic-workshop10:
-    name: Change my application release (rolling update)
-  manawa-basic-workshop11:
-    name: Manage my application (log, rsh, debug)
-  manawa-basic-workshop12:
-    name: Remove my database
+  manawa-cicd-workshop3:
+    name: Artifactory (Docker Registry)
+  manawa-cicd-workshop4:
+    name: Configure a Gitlab CI pipeline
+  manawa-cicd-workshop5:
+    name: Vault to set up the environment variables for the build
+  manawa-cicd-workshop6:
+    name: Deploy your code on Manawa
+  manawa-cicd-workshop7:
+    name: Edit your .gitlab-ci.yml by adding the deploy step
+  manawa-cicd-workshop8:
+    name: See pipeline & deployment results
+  manawa-cicd-workshop9:
+    name: Display your app  
 

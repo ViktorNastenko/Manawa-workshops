@@ -1,18 +1,15 @@
 ---
-id: workshop-manawa-basic
-name: Workshop Manawa Basic
+id: workshop-manawa-cicd
+name: Workshop Manawa CICD
 
 modules:
   activate:
-  - manawa-basic-workshop1
-  - manawa-basic-workshop2
-  - manawa-basic-workshop3
-  - manawa-basic-workshop4
-  - manawa-basic-workshop5
-  - manawa-basic-workshop6
-  - manawa-basic-workshop7
-  - manawa-basic-workshop8
-  - manawa-basic-workshop9
-  - manawa-basic-workshop10
-  - manawa-basic-workshop11
-  - manawa-basic-workshop12
+  - manawa-cicd-workshop1
+  - manawa-cicd-workshop2
+  - manawa-cicd-workshop3
+  - manawa-cicd-workshop4
+  - manawa-cicd-workshop5
+  - manawa-cicd-workshop6
+  - manawa-cicd-workshop7
+  - manawa-cicd-workshop8
+  - manawa-cicd-workshop9
