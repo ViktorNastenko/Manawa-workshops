@@ -1,7 +1,7 @@
 
-## Docker commands
+# Docker commands
 
-### General Usage
+## General Usage
 
 Start a container in background
 
@@ -46,7 +46,7 @@ docker run -d \
 label= traefik.backend=jenkins jenkins
 ```
 
-### Build Images
+## Build Images
 
 Build an image from Dockerfile in current directory 
 
