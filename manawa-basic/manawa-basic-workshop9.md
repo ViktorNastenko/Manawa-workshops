@@ -1,38 +1,44 @@
 
-## Autoscale my application
+## Docker commands
 
-Set CPU and Memory limits on your deployment:
-
-```
-    $ oc set resources dc manawa-todo --limits=cpu=200m,memory=512Mi --requests=cpu=100m,memory=256Mi 
-```
-
-Then, configure the auto-scaling:
+Start a container in background
 
 ```
-    $ oc autoscale dc manawa-todo --min 1 --max 10 --cpu-percent=80
+    $ docker un -d jenkins
 ```
 
-Check :
+Start an interactive container
 
 ```
-    $ oc get hpa
+    $ docker un -it ubuntu bash
 ```
 
-Finally, launch an ab testing:
+Start a container automatically removed on stop
 
 ```
-    $ ab -n 100000 -c 20 https://manawa-todo-workshop-<LDAP>-todolist.euw1-gcp-poc.adeo.cloud/tasks
+    $ docker un -rm ubuntu bash
 ```
-
-Check from another terminal hpa and pods:
-
-```
-    $ oc get hpa -w 
-```      
+Export port from a container
 
 ```
-    $ oc get po && oc get dc
+    $ docker run -p 80:80 -d nginx
+```  
+
+Start a named container
+```   
+    $ docker run --name mydb redis
+
+```
+Restart a stoppped container
+```
+    $ docker start mydb
 ```
 
-Note : Wait at least 2 minutes. If you do not have ab, ask to the presentator to launch the test.
+Stop a container 
+```
+    $ docker stop mydb```
+```
+Add a metadata to container
+```
+docker run -d \
+label= traefik.backend=jenkins jenkins
