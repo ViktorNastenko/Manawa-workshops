@@ -8,7 +8,7 @@ Edit your `.gitlab-ci.yml` file. Copy and paste the section `openshift-deploy:`
       BUILD_IMAGE: <YOUR JFROG REPOSITORY>/hello-world
       MANAWA_USER: <YOUR MANAWA SVC USER>
       MANAWA_PROJECT: <YOUR MANAWA PROJECT>
-      MANAWA_URL: https://manawa.euw3-gcp1.adeo.cloud/
+      MANAWA_URL: https://manawa.euw1-gcp-poc.adeo.cloud/
       APP_RELEASE_NAME: flask-hello-world
       VAULT_NAMESPACE: <YOUR VAULT NAMESPACE>
       VAULT_ADDR: https://vault.factory.adeo.cloud
