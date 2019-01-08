@@ -27,7 +27,7 @@ Edit your `.gitlab-ci.yml` file. Copy and paste the section `openshift-deploy:`
         - VAULT_TOKEN=$(curl -s -k -X POST -H "X-Vault-Namespace:${VAULT_NAMESPACE}" --data @payload.json ${VAULT_ADDR}/v1/auth/approle/login|jq -r '.auth.client_token')
         - JFROG_TOKEN=$(curl -s -k -H "X-Vault-Token:${VAULT_TOKEN}" -H "X-Vault-Namespace:${VAULT_NAMESPACE}" -X GET ${VAULT_ADDR}/v1/secret/data/workshop/jfrog/token | jq -r '.data.data.JFROG_TOKEN')
         - docker info
-        - docker login -u ${JFROG_USER} -p ${JFROG_TOKEN} ${JFROG_REPO}O}
+        - docker login -u ${JFROG_USER} -p ${JFROG_TOKEN} ${JFROG_REPO}
       script:
         - docker build -t ${BUILD_IMAGE} .
         - docker tag ${BUILD_IMAGE} ${BUILD_IMAGE}:${APP_VERSION}
