@@ -56,8 +56,8 @@ Edit your `.gitlab-ci.yml` file. Copy and paste the section `openshift-deploy:`
         - tar -zxvf helm-v2.11.0-linux-amd64.tar.gz
         - mv linux-amd64/helm /usr/local/bin/helm
         - mv ./helm/app-name ./helm/${APP_RELEASE_NAME}
-        - sed -i "s/app-name/${APP_RELEASE_NAME}/" ./helm/${APP_RELEASE_NAME}/values.yaml
-        - sed -i "s/app-name/${APP_RELEASE_NAME}/" ./helm/${APP_RELEASE_NAME}/Chart.yaml
+        - sed -i "s/APP_NAME/${APP_RELEASE_NAME}/" ./helm/${APP_RELEASE_NAME}/values.yaml
+        - sed -i "s/APP_NAME/${APP_RELEASE_NAME}/" ./helm/${APP_RELEASE_NAME}/Chart.yaml
         - sed -i "s/MANAWA_USER/$MANAWA_USER/" ./helm/${APP_RELEASE_NAME}/values.yaml
         - sed -i "s/IMAGE_TAG/$APP_VERSION/" ./helm/${APP_RELEASE_NAME}/values.yaml
       script:
