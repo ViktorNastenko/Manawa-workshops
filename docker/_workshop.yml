@@ -1,9 +1,0 @@
----
-id: workshop-docker-beginer
-name: Workshop Docker Beginer
-
-modules:
-  activate:
-  - docker-beginer-workshop1
-  - docker-beginer-workshop2
-  - docker-beginer-workshop3
