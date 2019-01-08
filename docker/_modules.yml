@@ -1,0 +1,10 @@
+config:
+  renderer: markdown
+  
+modules:
+  docker-beginer-workshop1:
+    name: Build my first image
+  docker-beginer-workshop2:
+    name: Docker commands
+  docker-beginer-workshop3:
+    Docker compose
