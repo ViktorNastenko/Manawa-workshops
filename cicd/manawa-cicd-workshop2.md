@@ -58,7 +58,7 @@ Open a new terminal and enter the following commands.
 
 # 2. Setup your CICD pipeline
 
-**Create a new repository on Github**
+**Create a new repository on Github and give it good rights**
 
 Once it is created go in the settings of your repository and click on "Collaborators & teams". 
 
@@ -72,40 +72,57 @@ Add the team "workshop-manawa-cicd" with write access to your repository. The te
 This repository contains the demo app we are going to deploy during the workshop.
 
 ```
-    #$ git clone https://github.com/adeo/software-factory-demo.git
-    $ git clone https://github.com/adeo/manawa-workshop-cicd-demoapp.git
+    $ git clone https://github.com/adeo/software-factory-demo.git
 ```
 
-**Create your own Github repository**
-
-Create a new repository on Github
-
-Once it is created go in the settings of your repository and click on "Collaborators
+**Clean the project to reuse it as demo app**
 
 ```
-#$ cd software-factory-demo
-$ cd manawa-workshop-cicd-demoapp
+    $ cd software-factory-demo
 ```
 
 ```
-$ rm -rf .git
+    $ rm -rf .git
 ```
 
 ```
-$ git init
+    $ rm -rf .gitlab-ci.yml
 ```
 
 ```
-$ git remote add origin your_github_repo
+    $ git init
+```
+
+```
+    $ git remote add origin your_github_repo
 ```
 
 **Create a Gitlab pipeline - sync Gitlab with Github (external repository)**
 
-Crea
+TODO
+add explaination text
+
+Click create project button from Gitlab.com homepage.
+
+Then select CI/CD from external repo.
+
+![Create Gitlab from External Repo]({% image_path 
+screens/gitlab-connect-account-1.png %})
+
+
+Select your Github project and select "adeotech/workshop-manawa-cicd team.
+
+![Select Github project]({% image_path 
+screens/gitlab-connect-account-2.png %})
+
+![Synced project]({% image_path 
+screens/gitlab-connect-account-3.png %})
+
 
 **Push the demo app code on your own repository**
 
 TODO
+Talk about personal access token
 
 
 # 3. Artifactory (Docker registry + other features)

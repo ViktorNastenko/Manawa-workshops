@@ -31,10 +31,7 @@ Edit your `.gitlab-ci.yml` file. Copy and paste the section `openshift-deploy:`
       script:
         - docker build -t ${BUILD_IMAGE} .
         - docker tag ${BUILD_IMAGE} ${BUILD_IMAGE}:${APP_VERSION}
-        - docker tag ${BUILD_IMAGE} ${BUILD_IMAGE}:latest
         - docker push ${BUILD_IMAGE}:${APP_VERSION}
-        - docker push ${BUILD_IMAGE}:latest
-        - docker rmi ${BUILD_IMAGE}:latest ${BUILD_IMAGE}:${APP_VERSION}
       tags:
         - adeo
         - docker
@@ -60,6 +57,7 @@ Edit your `.gitlab-ci.yml` file. Copy and paste the section `openshift-deploy:`
         - sed -i "s/APP_NAME/${APP_RELEASE_NAME}/" ./helm/${APP_RELEASE_NAME}/Chart.yaml
         - sed -i "s/MANAWA_USER/$MANAWA_USER/" ./helm/${APP_RELEASE_NAME}/values.yaml
         - sed -i "s/IMAGE_TAG/$APP_VERSION/" ./helm/${APP_RELEASE_NAME}/values.yaml
+        - sed -i "s/YOUR_JFROG_REPO/$JFROG_REPO/" ./helm/${APP_RELEASE_NAME}/values.yaml
       script:
         - oc login --insecure-skip-tls-verify "$MANAWA_URL" --token="$MANAWA_TOKEN"
         - oc project $MANAWA_PROJECT
