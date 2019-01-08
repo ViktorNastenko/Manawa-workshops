@@ -99,9 +99,7 @@ This repository contains the demo app we are going to deploy during the workshop
 
 **Create a Gitlab pipeline - sync Gitlab with Github (external repository)**
 
-TODO
-add explaination text
-
+**Step 1**
 Click create project button from Gitlab.com homepage.
 
 Then select CI/CD from external repo.
@@ -109,11 +107,15 @@ Then select CI/CD from external repo.
 ![Create Gitlab from External Repo]({% image_path 
 screens/gitlab-connect-account-1.png %})
 
-
+**Step 2**
 Select your Github project and select "adeotech/workshop-manawa-cicd team.
 
 ![Select Github project]({% image_path 
 screens/gitlab-connect-account-2.png %})
+
+**Step 3**
+
+Once you synced your Github repository in Gitlab you should have something similar to the following screen:
 
 ![Synced project]({% image_path 
 screens/gitlab-connect-account-3.png %})
