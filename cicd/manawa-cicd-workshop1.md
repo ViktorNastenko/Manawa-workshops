@@ -6,7 +6,7 @@
 * Manawa cluster to use for this workshop           : [https://manawa.euw3-gcp1.adeo.cloud](https://manawa.euw3-gcp1.adeo.cloud)
 
 
-The purpose of this workshop is to use the different CICD tools available within Adeo to build your continuous delivery pipelines and deploy your apps on Manawa. 
+The purpose of this workshop is to build a CICD pipeline and deploy your apps on Manawa.
 
 
 The different tools involved in this workshop are: 

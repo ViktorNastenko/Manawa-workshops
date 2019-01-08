@@ -4,7 +4,7 @@ You will need the oc cli (Openshift Command Line Interface) installed on your la
 
   
 
-# Install oc binary
+# 1. Install oc binary
 
 You need at least oc version >= 3.10
 
@@ -56,18 +56,35 @@ Open a new terminal and enter the following commands.
 ```
   
 
-# Setup your CICD pipeline
+# 2. Setup your CICD pipeline
+
+**Create a new repository on Github**
+
+Once it is created go in the settings of your repository and click on "Collaborators & teams". 
+
+Add the team "workshop-manawa-cicd" with write access to your repository. The team "workshop-manawa-cicd" as the maintainer role. This role is necessary to allow Gitlab to be synced with your repository.
+
+![Add team]({% image_path screens/github-add-team.png %})
+
 
 **Clone Github repository**
 
+This repository contains the demo app we are going to deploy during the workshop.
+
 ```
-    $ git clone https://github.com/adeo/software-factory-demo.git
+    #$ git clone https://github.com/adeo/software-factory-demo.git
+    $ git clone https://github.com/adeo/manawa-workshop-cicd-demoapp.git
 ```
 
 **Create your own Github repository**
 
+Create a new repository on Github
+
+Once it is created go in the settings of your repository and click on "Collaborators
+
 ```
-$ cd software-factory-demo
+#$ cd software-factory-demo
+$ cd manawa-workshop-cicd-demoapp
 ```
 
 ```
@@ -84,14 +101,14 @@ $ git remote add origin your_github_repo
 
 **Create a Gitlab pipeline - sync Gitlab with Github (external repository)**
 
-TODO
+Crea
 
 **Push the demo app code on your own repository**
 
 TODO
 
 
-# Artifactory (Docker registry + other features)
+# 3. Artifactory (Docker registry + other features)
 
 ## Personal account 
 
