@@ -3,7 +3,7 @@
 <!---
 * Workshop your are following       : [https://github.com/adeo/Manawa-workshops.git](https://github.com/adeo/Manawa-workshops.git)
 -->
-* Manawa cluster to use for this workshop           : [https://manawa.euw3-gcp1.adeo.cloud](https://manawa.euw3-gcp1.adeo.cloud)
+* Manawa cluster to use for this workshop : [https://manawa.euw1-gcp-poc.adeo.cloud](https://manawa.euw1-gcp-poc.adeo.cloud)
 
 
 The purpose of this workshop is to build a CICD pipeline and deploy your apps on Manawa.
@@ -15,7 +15,7 @@ The different tools involved in this workshop are:
 * [Gitlab.com](http://github.com) for your CICD pipeline
 * [Jfrog](https://adeo.jfrog.io) as Docker registry to push/pull your Docker images
 * [Vault](https://vault.factory.adeo.cloud/ui/) as secret management tool 
-* [Manawa](https://manawa.euw3-gcp1.adeo.cloud) as glue between the different tools to deploy and manage your running app 
+* [Manawa](https://manawa.euw1-gcp-poc.adeo.cloud) as glue between the different tools to deploy and manage your running app 
 
 
 The documentations of the different tools are here: 
