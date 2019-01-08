@@ -1,4 +1,5 @@
-In order to display your app, you can click to the address provided by the manawa team during the deployment step.
+* In Gitlab, if you go to the pipelines page of your project, you will see that the pipeline is in progress. If all the stages are successful, you will have a green checkmark as shown below in the pipeline page.
 
-![Manawa Deployment]({% image_path 
-screens/manawa-deployment.png %})
+![Gitlab Pipeline]({% image_path screens/gitlab-pipeline.png %})
+
+* In the [manawa platform](https://manawa.euw3-gcp1.adeo.cloud/), one connected to your project created in step 4. You'll be able to see the results of your deployment. 

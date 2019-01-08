@@ -27,10 +27,7 @@ In the following example, we will build a docker image and then push the resulti
       script:
         - docker build -t ${BUILD_IMAGE} .
         - docker tag ${BUILD_IMAGE} ${BUILD_IMAGE}:${APP_VERSION}
-        - docker tag ${BUILD_IMAGE} ${BUILD_IMAGE}:latest
         - docker push ${BUILD_IMAGE}:${APP_VERSION}
-        - docker push ${BUILD_IMAGE}:latest
-        - docker rmi ${BUILD_IMAGE}:latest ${BUILD_IMAGE}:${APP_VERSION}
       # Select the Runners allowed to run this project using tags
       tags:
         - adeo

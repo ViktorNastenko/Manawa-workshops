@@ -99,7 +99,7 @@ This repository contains the demo app we are going to deploy during the workshop
 
 **Create a Gitlab pipeline - sync Gitlab with Github (external repository)**
 
-**Step 1**
+*Step 1:*
 
 Click create project button from Gitlab.com homepage.
 
@@ -108,14 +108,14 @@ Then select CI/CD from external repo.
 ![Create Gitlab from External Repo]({% image_path 
 screens/gitlab-connect-account-1.png %})
 
-**Step 2**
+*Step 2:*
 
 Select your Github project and select "adeotech/workshop-manawa-cicd team.
 
 ![Select Github project]({% image_path 
 screens/gitlab-connect-account-2.png %})
 
-**Step 3**
+*Step 3:*
 
 Once you synced your Github repository in Gitlab you should have something similar to the following screen:
 
@@ -125,13 +125,22 @@ screens/gitlab-connect-account-3.png %})
 
 **Push the demo app code on your own repository**
 
-TODO
-Talk about personal access token
+Verify you can push the demo app to your repository. 
+
+*2 options:*
+
+* Either use a SSH key and enable SSO
+You can follow these 2 tutorials official to do so:
+[https://help.github.com/articles/connecting-to-github-with-ssh/](https://help.github.com/articles/connecting-to-github-with-ssh/) and [https://help.github.com/articles/authorizing-an-ssh-key-for-use-with-a-saml-single-sign-on-organization/](https://help.github.com/articles/authorizing-an-ssh-key-for-use-with-a-saml-single-sign-on-organization/)
+
+
+* or create a personal access token and enable SSO.
+Please follow the 2 official easy-to-follow tutorials from Github: [https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) and [https://help.github.com/articles/authorizing-a-personal-access-token-for-use-with-a-saml-single-sign-on-organization/](https://help.github.com/articles/authorizing-a-personal-access-token-for-use-with-a-saml-single-sign-on-organization/)
 
 
 # 3. Artifactory (Docker registry + other features)
 
-## Personal account 
+**Jfrog Personal account**
 
 The Software Factory currently handles the creation of Artifactory accounts.
 
@@ -139,10 +148,11 @@ Got to the [Software Factory Slack channel](https://adeo-tech-community.slack.co
 Ask for an Artifactory account
 We will handle the rest for you 
 
-## Service account
+**Jfrog Service account**
 
 Get your team's Artifactory service account credentials.
 Ask your team's admin. If you have asked your teammates and still don't know who it is, you can ask us on the [Software Factory Slack channel](https://adeo-tech-community.slack.com/messages/CCKQPKA6Q) who the admin is.
 
 
-You're done for this step.
+
+*You're done for this step.*

@@ -3,7 +3,7 @@
 In your terminal, login using your LDAP account: 
 
 ```
-$ oc login -u <LDAP> -p <LDAP_PASSWORD> https://manawa.euw3-gcp1.adeo.cloud/
+$ oc login -u <LDAP> -p <LDAP_PASSWORD> https://manawa.euw1-gcp-poc.adeo.cloud/
 ```
 
 **Choose a namespace (project) that will contain your application**
@@ -30,7 +30,7 @@ Service account follow this format svc-[BU]-[Project] (e.g svc-adeo-software-fac
 
 If you don't find any service account matching your team, then you can create a new one using the following command
 
-/!\ only do this if you haven't found a service account matching your team by using the "oc get sa" command above:
+> /!\ only do this if you haven't found a service account matching your team when using the command: "oc get sa":
 
 ```    
 $ export MANAWA_USER=[YOUR SERVICE ACCOUNT]
@@ -51,6 +51,9 @@ $ oc sa get-token $MANAWA_USER # Copy it somewhere we will need it later
 ```
 $ oc create secret docker-registry registry-artifactory --docker-server=<your_jfrog_repository> --docker-username=<your_service_account_username> --docker-password=<your_service_account_password> --docker-email=<your_service_account_email>
 ```
+
+> Note:
+As example for your_jfrog_repository variable in the previous command: adeo-docker-adeo-manawa-dev.jfrog.io
 
 **Give the default service account the ability to connect to JFrog**
 

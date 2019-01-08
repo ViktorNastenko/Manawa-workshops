@@ -20,8 +20,4 @@ KEY: VAULT_PAYLOAD
 VALUE: {"role_id": "my-role-id", "secret_id": "my-secret-id"}
 ```
 
-TODO 
-
-my-role-id = see procedure
-
-my-secret-id = see procedure
+To retrieve the role-id and secret-id there is a procedure accessible at the following link: [https://jira.adeo.com/confluence/pages/viewpage.action?pageId=121719862](https://jira.adeo.com/confluence/pages/viewpage.action?pageId=121719862)

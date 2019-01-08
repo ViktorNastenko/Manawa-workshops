@@ -15,9 +15,11 @@ modules:
   manawa-cicd-workshop6:
     name: Deploy your code on Manawa
   manawa-cicd-workshop7:
-    name: Edit your .gitlab-ci.yml by adding the deploy step
+    name: Edit your .gitlab-ci.yml to have a working pipeline
   manawa-cicd-workshop8:
-    name: See pipeline & deployment results
+    name: Add deployment step in CICD pipeline
   manawa-cicd-workshop9:
-    name: Display your app  
+    name: Create full pipeline & deployment apps
+  manawa-cicd-workshop10:
+    name: Display your app
 
