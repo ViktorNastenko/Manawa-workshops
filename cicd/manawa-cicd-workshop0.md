@@ -24,7 +24,7 @@ The documentations of the different tools are here:
 [https://wiki.corp.leroymerlin.com/display/MANAWA/Manawa+project+-+Homepage](https://wiki.corp.leroymerlin.com/display/MANAWA/Manawa+project+-+Homepage)
 
 * Factory (Vault, Jfrog, Gitlab, Github):
-
+[https://jira.adeo.com/confluence/display/SOFA/Software+Factory](https://jira.adeo.com/confluence/display/SOFA/Software+Factory)
 
 
 Other tutorials are available here: 

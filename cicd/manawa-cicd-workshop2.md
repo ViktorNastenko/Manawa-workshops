@@ -75,6 +75,18 @@ This repository contains the demo app we are going to deploy during the workshop
     $ git clone https://github.com/adeo/software-factory-demo.git
 ```
 
+You will need to configure Git. 
+
+*2 options:*
+
+* Either use a SSH key and enable SSO
+You can follow these 2 tutorials official to do so:
+[https://help.github.com/articles/connecting-to-github-with-ssh/](https://help.github.com/articles/connecting-to-github-with-ssh/) and [https://help.github.com/articles/authorizing-an-ssh-key-for-use-with-a-saml-single-sign-on-organization/](https://help.github.com/articles/authorizing-an-ssh-key-for-use-with-a-saml-single-sign-on-organization/)
+
+
+* or create a personal access token and enable SSO.
+Please follow the 2 official easy-to-follow tutorials from Github: [https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) and [https://help.github.com/articles/authorizing-a-personal-access-token-for-use-with-a-saml-single-sign-on-organization/](https://help.github.com/articles/authorizing-a-personal-access-token-for-use-with-a-saml-single-sign-on-organization/)
+
 **Clean the project to reuse it as demo app**
 
 ```
@@ -127,16 +139,17 @@ screens/gitlab-connect-account-3.png %})
 
 Verify you can push the demo app to your repository. 
 
-*2 options:*
+```
+    git add --all
+```
 
-* Either use a SSH key and enable SSO
-You can follow these 2 tutorials official to do so:
-[https://help.github.com/articles/connecting-to-github-with-ssh/](https://help.github.com/articles/connecting-to-github-with-ssh/) and [https://help.github.com/articles/authorizing-an-ssh-key-for-use-with-a-saml-single-sign-on-organization/](https://help.github.com/articles/authorizing-an-ssh-key-for-use-with-a-saml-single-sign-on-organization/)
+```
+    git commit -m "first commit"
+```
 
-
-* or create a personal access token and enable SSO.
-Please follow the 2 official easy-to-follow tutorials from Github: [https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) and [https://help.github.com/articles/authorizing-a-personal-access-token-for-use-with-a-saml-single-sign-on-organization/](https://help.github.com/articles/authorizing-a-personal-access-token-for-use-with-a-saml-single-sign-on-organization/)
-
+```
+    git push origin master
+```
 
 # 3. Artifactory (Docker registry + other features)
 
@@ -152,6 +165,13 @@ We will handle the rest for you
 
 Get your team's Artifactory service account credentials.
 Ask your team's admin. If you have asked your teammates and still don't know who it is, you can ask us on the [Software Factory Slack channel](https://adeo-tech-community.slack.com/messages/CCKQPKA6Q) who the admin is.
+
+
+# 4. Vault 
+
+You will need a Vault namespace. Please contact the Software Factory team via their [Slack Channel](https://adeo-tech-community.slack.com/messages/CCKQPKA6Q) and specify you are going to attend the workshop.
+
+
 
 
 

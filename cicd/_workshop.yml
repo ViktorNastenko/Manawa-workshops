@@ -4,7 +4,9 @@ name: Workshop Manawa CICD
 
 modules:
   activate:
-  - manawa-cicd-workshop1
+  - manawa-cicd-workshop0
+  - manawa-cicd-workshop1-1
+  - manawa-cicd-workshop1-2
   - manawa-cicd-workshop2
   - manawa-cicd-workshop3
   - manawa-cicd-workshop4

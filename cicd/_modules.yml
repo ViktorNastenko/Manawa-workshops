@@ -2,10 +2,14 @@ config:
   renderer: markdown
   
 modules:
-  manawa-cicd-workshop1:
+  manawa-cicd-workshop0:
     name: Workshop Manawa CICD
+  manawa-cicd-workshop1-1:
+    name: JFrog Introduction
+  manawa-cicd-workshop1-2:
+    name: Vault Introduction
   manawa-cicd-workshop2:
-    name: Prerequisite
+    name: Prerequisites
   manawa-cicd-workshop3:
     name: Artifactory (Docker Registry)
   manawa-cicd-workshop4:
